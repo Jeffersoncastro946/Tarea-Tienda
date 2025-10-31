@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1761925069317,
+    "nombre": "Mouse gamer",
+    "precio": 450,
+    "descripcion": "Mouse con luces RGB de alta precisión",
+    "disponible": true
+  },
+  {
+    "id": 1761925344757,
+    "nombre": "Mouse Oficina",
+    "precio": 450,
+    "descripcion": "Mouse sin luces RGB de alta precisión",
+    "disponible": true,
+    "fecha_ingreso": 1761925344757
+  },
+  {
+    "id": 1761928605003,
+    "nombre": "Mouse Oficina",
+    "precio": 450,
+    "descripcion": "Mouse sin luces RGB de alta precisión",
+    "disponible": true,
+    "fecha_ingreso": 1761928605003
+  },
+  {
+    "id": 1761929321921,
+    "nombre": "teclado Oficina",
+    "precio": 500,
+    "descripcion": "teclado argos con teclas ergonomicas",
+    "disponible": true,
+    "fecha_ingreso": 1761929321921
+  },
+  {
+    "id": 1761929947566,
+    "nombre": "teclado Oficina",
+    "precio": 500,
+    "descripcion": "teclado argos con teclas ergonomicas",
+    "disponible": true,
+    "fecha_ingreso": 1761929947566
+  },
+  {
+    "id": 1761930049979,
+    "nombre": "teclado Oficina",
+    "precio": 500,
+    "descripcion": "teclado argos con teclas ergonomicas",
+    "disponible": true,
+    "fecha_ingreso": 1761930049979
+  },
+  {
+    "id": 1761930116795,
+    "nombre": "teclado Oficina",
+    "precio": 500,
+    "descripcion": "teclado argos con teclas ergonomicas",
+    "disponible": true,
+    "fecha_ingreso": 1761930116795
+  },
+  {
+    "id": 1761930246608,
+    "nombre": "teclado Oficina",
+    "precio": 500,
+    "descripcion": "teclado argos con teclas ergonomicas",
+    "disponible": true,
+    "fecha_ingreso": 1761930246608
+  },
+  {
+    "id": 1761930361576,
+    "nombre": "teclado Oficina",
+    "precio": 500,
+    "descripcion": "teclado argos con teclas ergonomicas",
+    "disponible": true,
+    "fecha_ingreso": "2025-10-31T17:06:01.576Z"
+  }
+]

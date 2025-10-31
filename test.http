@@ -1,0 +1,18 @@
+### Obtener todos los productos
+GET http://localhost:500/api/tienda
+Content-Type: application/json
+
+
+
+
+
+### Crear nuevo
+POST http://localhost:500/api/tienda
+Content-Type: application/json
+
+{
+  "nombre": "teclado Oficina",
+  "precio": 500,
+  "descripcion": "teclado argos con teclas ergonomicas",
+  "disponible": true
+}

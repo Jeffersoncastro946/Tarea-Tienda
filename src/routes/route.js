@@ -8,6 +8,7 @@ import {
   eliminar,
 } from "../controllers/productController.js";
 import validarId from "../middlewares/validarId.middleware.js";
+import { validarProducto } from "../middlewares/validarProducto.js";
 
 const routers = expres.Router();
 
@@ -18,10 +19,12 @@ routers.get("/", listarProducto);
 
 //Get /productos/:id ->detalle primero mandamos a un middleware para que valide si es numerico
 routers.get("/:id", validarId, obtenerProductoPorId);
+
 //post /productos ->crear
-routers.post("/", crearProducto);
+routers.post("/", validarProducto, crearProducto);
 //put /productos/:id ->actualizar
-routers.put("/:id", validarId, actualizar);
+
+routers.put("/:id", validarProducto, actualizar);
 //delete /productos/:id ->actualizar
-routers.delete("/:id", validarId, eliminar);
+routers.delete("/:id", eliminar);
 export default routers;
