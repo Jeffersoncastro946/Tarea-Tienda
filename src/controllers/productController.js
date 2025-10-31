@@ -4,20 +4,49 @@ import { sendResponse } from "../utils/sendResponse.js";
 export function listarProducto(req, res) {
   //1. mandamos a llamar del servicio una list del modelo de productos
   const arregloProductos = productoService.obtnertodo();
+  //caso que venga vacio
+  if (arregloProductos.length > 0) {
+    sendResponse({
+      res,
+      message: "Productos encontrados",
+      statucode: 200,
+      data: { arregloProductos },
+    });
+  }
 
   sendResponse({
     res,
-    message: "Productos encontrados",
+    message: "Actualmente no hay productos registrados",
     statucode: 200,
-    data: { arregloProductos },
+    data: [],
   });
 }
 
 //obtener detalle
 export function obtenerProductoPorId(req, res) {
   const id = Number(req.params.id);
-  // Respuesta mínima para evitar que la petición quede colgada
-  res.json({ id, nombre: `Producto ${id}`, descripcion: "Detalle ejemplo" });
+
+  //1. verificar que el id exista
+  //2.si existe llamar el servicio
+
+  const producto = productoService.obtnerPorId(id);
+  if (producto) {
+    //aqui si se encontro
+    sendResponse({
+      res,
+      message: "Producto encontrado correctamente",
+      statucode: 201,
+      data: { producto },
+    });
+  } else {
+    sendResponse({
+      //resulto undefined
+      res,
+      message: `Producto no encontrado id:${id} no existe`,
+      statucode: 404,
+      data: [],
+    });
+  }
 }
 
 //crear producto

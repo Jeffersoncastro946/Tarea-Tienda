@@ -1,73 +1,26 @@
 [
   {
-    "id": 1761925069317,
-    "nombre": "Mouse gamer",
-    "precio": 450,
-    "descripcion": "Mouse con luces RGB de alta precisión",
-    "disponible": true
-  },
-  {
-    "id": 1761925344757,
-    "nombre": "Mouse Oficina",
-    "precio": 450,
-    "descripcion": "Mouse sin luces RGB de alta precisión",
-    "disponible": true,
-    "fecha_ingreso": 1761925344757
-  },
-  {
-    "id": 1761928605003,
-    "nombre": "Mouse Oficina",
-    "precio": 450,
-    "descripcion": "Mouse sin luces RGB de alta precisión",
-    "disponible": true,
-    "fecha_ingreso": 1761928605003
-  },
-  {
-    "id": 1761929321921,
+    "id": 1761932419715,
     "nombre": "teclado Oficina",
     "precio": 500,
     "descripcion": "teclado argos con teclas ergonomicas",
     "disponible": true,
-    "fecha_ingreso": 1761929321921
+    "fecha_ingreso": "2025-10-31T17:40:19.715Z"
   },
   {
-    "id": 1761929947566,
-    "nombre": "teclado Oficina",
+    "id": 1761932433190,
+    "nombre": "teclado Oficina gamer",
     "precio": 500,
-    "descripcion": "teclado argos con teclas ergonomicas",
+    "descripcion": "teclado argos con teclas ergonomicas pero mecanicas",
     "disponible": true,
-    "fecha_ingreso": 1761929947566
+    "fecha_ingreso": "2025-10-31T17:40:33.190Z"
   },
   {
-    "id": 1761930049979,
-    "nombre": "teclado Oficina",
+    "id": 1761932467117,
+    "nombre": "mouse Oficina gamer",
     "precio": 500,
-    "descripcion": "teclado argos con teclas ergonomicas",
+    "descripcion": "mouse argos ergonomico pero velocidad increible",
     "disponible": true,
-    "fecha_ingreso": 1761930049979
-  },
-  {
-    "id": 1761930116795,
-    "nombre": "teclado Oficina",
-    "precio": 500,
-    "descripcion": "teclado argos con teclas ergonomicas",
-    "disponible": true,
-    "fecha_ingreso": 1761930116795
-  },
-  {
-    "id": 1761930246608,
-    "nombre": "teclado Oficina",
-    "precio": 500,
-    "descripcion": "teclado argos con teclas ergonomicas",
-    "disponible": true,
-    "fecha_ingreso": 1761930246608
-  },
-  {
-    "id": 1761930361576,
-    "nombre": "teclado Oficina",
-    "precio": 500,
-    "descripcion": "teclado argos con teclas ergonomicas",
-    "disponible": true,
-    "fecha_ingreso": "2025-10-31T17:06:01.576Z"
+    "fecha_ingreso": "2025-10-31T17:41:07.117Z"
   }
 ]
